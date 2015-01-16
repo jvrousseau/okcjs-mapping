@@ -1,0 +1,108 @@
+ @import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+ @import url(http://fonts.googleapis.com/css?family=Oswald);
+ body {
+     font-family: 'Droid Serif';
+     font-size: 20px;
+     color: #303030;
+ }
+ h1,
+ h2,
+ h3 {
+     font-family: 'Oswald';
+     font-weight: 400;
+     margin-bottom: 0;
+     margin-top: 0;
+ }
+ h1 {
+     font-size: 4em;
+ }
+ h2 {
+     font-size: 2em;
+ }
+ h3 {
+     font-size: 1.6em;
+ }
+
+ .footnote {
+     position: absolute;
+     bottom: 3em;
+     font-size: 12px;
+ }
+ li p {
+     line-height: 1.25em;
+     font-size: 1.25em;
+ }
+ .red {
+     color: #fa0000;
+ }
+ .large {
+     font-size: 2em;
+ }
+ a,
+ a > code {
+     color: #73a53e;
+     text-decoration: none;
+ }
+ code {
+     -moz-border-radius: 5px;
+     -web-border-radius: 5px;
+     background: #e7e8e2;
+     border-radius: 5px;
+     font-size: 16px;
+ }
+ .pull-left {
+     float: left;
+     width: 47%;
+ }
+ .pull-right {
+     float: right;
+     width: 47%;
+ }
+ .pull-right ~ p {
+     clear: both;
+ }
+ #slideshow .slide .content code {
+     font-size: 0.8em;
+ }
+ #slideshow .slide .content pre code {
+     font-size: 0.9em;
+     padding: 15px;
+ }
+ .remark-slide-content {
+     background-color: #e7e8e2;
+ }
+ .huge-title {
+     font-size: 35px;
+ }
+ .inverse {
+     background: #303030;
+     color: #73a53e;
+ }
+ .inverse h1,
+ .inverse h2 {
+     color: #73a53e;
+     line-height: 1.1em;
+ }
+ /* Slide-specific styling */
+ #slide-inverse .footnote {
+     bottom: 12px;
+     left: 20px;
+ }
+ /* Two-column layout */
+ .left-column {
+     color: #303030;
+     width: 20%;
+     height: 92%;
+     float: left;
+ }
+
+.left-column h2:last-of-type, .left-column h3:last-child {
+     color: #73a53e;
+ }
+ .right-column {
+     width: 75%;
+     float: right;
+     padding-top: 2em;
+ }
+
+ img{ width: 500px; }

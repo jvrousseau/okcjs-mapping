@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="style.css">
+  <title>delicious web maps</title>
+</head>
+
+<body>
+  <textarea id="source">
+    layout: true
+    class: huge-title, inverse, center, middle
+    ---
+    #so tell me again why we're not using leaflet?
+
+    ???
+
+    `P` for presenter mode.
+
+    `C` to open a cloned window.
+
+    Go S.L.O.W.
+    ---
+    layout: false
+    class: huge-title, inverse, center, middle
+
+    # web mapping
+    ---
+    class: center, middle
+    # larger players
+    google
+
+    bing
+
+    mapquest
+
+    arcgis
+
+    here (nokia maps)
+    ---
+    layout: false
+    class: huge-title, inverse, center, middle
+
+    # open mapping
+    ---
+    class: center, middle
+    # open source projects
+    leaflet
+
+    polymaps
+
+    modest maps
+    ---
+    layout: false
+    class: huge-title, center, middle
+    # what do we use?
+
+    ![](img/leaflet.png)
+    ---
+    layout: false
+    class: huge-title, inverse, center, middle
+
+    # tiles
+    ---
+    layout: false
+    class: huge-title, center, middle
+    # quick review
+    1 tile = 256x256px
+
+    number of tiles at zoom level(z) = 4<sup>z</sup>
+    ---
+    layout: false
+    class: huge-title, center, middle
+    # zoom level 0 = 1 tile
+
+    ![](img/zoom-0.png)
+    ---
+    layout: false
+    class: huge-title, center, middle
+    # zoom level 1 = 4 tiles
+
+    ![](img/zoom-1.png)
+    ---
+    layout: false
+    class: huge-title, center, middle
+    # zoom level 2 = 16 tiles
+
+    ![](img/zoom-2.png)
+    ---
+    layout: false
+    class: huge-title, center, middle
+    # zoom level 4 = 64 tiles
+
+    ![](img/zoom-4.png)
+    ---
+    layout: false
+    class: huge-title, inverse, center, middle
+
+    # geojson
+    ---
+    layout: false
+    class: huge-title, center, middle
+    # quick review
+    geospacial data format based on json
+
+    point, linestring, polygon, multipoint, multilinestring, multipolygon and geometrycollection
+
+    feature is a geometry with additional properties
+
+    featurecollection is a list of features
+    ---
+    layout: false
+    class: huge-title, inverse, center, middle
+
+    # wut?
+    ---
+    layout: false
+    class: huge-title, center, middle
+    # turn this geojson
+
+    ![](img/geojson.png)
+    ---
+    layout: false
+    class: huge-title, center, middle
+    # into this map
+
+    ![](img/geojson-map.png)
+    ---
+    layout: false
+    class: huge-title, center, middle
+    play more with geojson?
+
+    # geojson.io
+    ---
+    layout: false
+    class: huge-title, center, middle
+    i gave a terrible intro to mapping?
+
+    # mapschool.io
+    ---
+    layout: false
+    class: huge-title, inverse, center, middle
+
+    maps tell stories
+
+    (they don't lie...)
+    ---
+    layout: false
+    class: huge-title, inverse, center, middle
+    powerful stories
+
+    ![](img/may20.png)
+    ---
+    layout: fals
+    class: huge-title, inverse, center, middle
+    tragic stories
+
+    ![](img/boston.png)
+    [boston.com](http://www.boston.com/news/local/massachusetts/specials/boston_marathon_bombing_stories/)
+    ---
+    layout: fals
+    class: huge-title, inverse, center, middle
+    billions of stories
+
+    ![](img/twitter.png)
+    [mapbox.com](https://www.mapbox.com/blog/twitter-map-every-tweet/)
+    ---
+
+    layout: false
+    class: huge-title, inverse, center, middle
+
+    # leaflet
+    ---
+    layout: false
+    class: huge-title, center, middle
+
+    # leaflet?
+
+  </textarea>
+  <script src="remark.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  var hljs = remark.highlighter.engine;
+  </script>
+  <!--<script src="js/remark.language.js" type="text/javascript"></script>-->
+  <script type="text/javascript">
+  var slideshow = remark.create({
+    ratio: '4:3',
+    highlightStyle: 'tomorrow',
+    highlightLanguage: 'remark'
+  });
+  </script>
+</body>
+
+</html>
