@@ -3,7 +3,7 @@
  body {
      font-family: 'Droid Serif';
      font-size: 20px;
-     color: #303030;
+     color: #236B8E;
  }
  h1,
  h2,
@@ -23,6 +23,11 @@
      font-size: 1.6em;
  }
 
+ .tile-image img {
+   width: 256px;
+   height: 256px;
+ }
+
  .footnote {
      position: absolute;
      bottom: 3em;
@@ -40,8 +45,13 @@
  }
  a,
  a > code {
-     color: #73a53e;
+     color: #236B8E;
      text-decoration: none;
+ }
+
+ .inverse a {
+   color: #e7e8e2;
+   text-decoration: none;
  }
  code {
      -moz-border-radius: 5px;
@@ -75,12 +85,12 @@
      font-size: 35px;
  }
  .inverse {
-     background: #303030;
-     color: #73a53e;
+     background: #236B8E;
+     color: #e7e8e2;
  }
  .inverse h1,
  .inverse h2 {
-     color: #73a53e;
+     color: #e7e8e2;
      line-height: 1.1em;
  }
  /* Slide-specific styling */
@@ -90,14 +100,14 @@
  }
  /* Two-column layout */
  .left-column {
-     color: #303030;
+     color: #236B8E;
      width: 20%;
      height: 92%;
      float: left;
  }
 
 .left-column h2:last-of-type, .left-column h3:last-child {
-     color: #73a53e;
+     color: #e7e8e2;
  }
  .right-column {
      width: 75%;
