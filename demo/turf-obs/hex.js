@@ -8,7 +8,7 @@ var map = L.mapbox.map('map', 'jvrousseau.map-bzxtnr7p', {
 
 var layerGroup = L.layerGroup().addTo(map);
 
-var grid = turf.hex(bbox, 0.5);
+var grid = turf.hex(bbox, 1.0);
 var grid = turf.count(grid, currentObs, 'pt_count');
 var grid = turf.average(grid, currentObs, 'temp_c', 'temperature');
 
